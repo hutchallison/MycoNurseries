@@ -21,7 +21,8 @@ import EdWorkshops from './pages/EdWorkshops';
 import AnalyticsDashboard from './pages/AnalyticsDashboard';
 import AdminPanel from './pages/AdminPanel';
 import BlogPage from './pages/BlogPage';
- 
+import EdResources from './pages/EdResources';
+import PdfPage from './pages/PdfPage'
 
 const PageWrapper = styled.div`
   display: flex;
@@ -80,10 +81,12 @@ function AnimatedRoutes() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/volunteer" element={<Volunteer />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/edWorkshops" element={<EdWorkshops />} />
             <Route path="/analytics" element={<AnalyticsDashboard />} />
             <Route path="/admin" element={<AdminPanel />} />
             <Route path="/blog/:slug" element={<BlogPage />} />
+            <Route path="/edWorkshops" element={<EdWorkshops />} />
+            <Route path="/edResources" element={<EdResources />} />
+            <Route path="/edResources/:pdfName" element={<PdfPage />} />
           </Routes>
         </ContentWrapper>
       </CSSTransition>

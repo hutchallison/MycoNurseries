@@ -49,7 +49,9 @@
       "edWorkshops": "Our Educational Workshops",
       "getInvolved": "Get Involved",
       "shop": "Shop",
-      "blog": "Blog"
+      "blog": "Blog",
+      "edResources": "Educational Resources",
+      "edPdf": "Resources"
     },
     "team": {
       "title": "Meet the Team",
@@ -267,6 +269,12 @@
       "fungiFrenzyText2": "Fungi Frenzy explores the connection between fungi, the environment, and climate action.",
       "fungiFrenzyText3": "Our first iteration of this workshop was presented in collaboration with the McGill Education Gardens in September 2025. More to come in 2026.",
       "contactText": "Interested in either of these workshops for your community? Contact us via myconurseries[at]gmail[dot]com for more information!"
+    },
+    "edResources": {
+      "title": "Educational Resources"
+    },
+    "edPdf": {
+      "title": "Resources"
     }
   }
 }

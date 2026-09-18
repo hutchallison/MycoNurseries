@@ -58,7 +58,7 @@ function EdWorkshops() {
       <PageTitle>{t('edWorkshops.title', 'Educational Workshops')}</PageTitle>
       
       <WorkshopSection>
-        <WorkshopImage src="/assets/edWorkshops/vermicompost.png" alt="Vermicompost" />
+        <WorkshopImage src="/assets/edResources/edWorkshops/vermicompost.png" alt="Vermicompost" />
         <WorkshopContent>
           <h3>{t('edWorkshops.vermicompostTitle', 'Learn to Vermicompost')}</h3>
           <p>{t('edWorkshops.vermicompostText1', 'Curious about worms and want to get your hands dirty? Join MycoNurseries for Vermicomposting 101, with the support of the UniC Network.')}</p>
@@ -74,7 +74,7 @@ function EdWorkshops() {
           <p>{t('edWorkshops.fungiFrenzyText2', 'Fungi Frenzy explores the connection between fungi, the environment, and climate action.')}</p>
           <p>{t('edWorkshops.fungiFrenzyText3', 'Our first iteration of this workshop was presented in collaboration with the McGill Education Gardens in September 2025. More to come in 2026.')}</p>
         </WorkshopContent>
-        <WorkshopImage src="/assets/edWorkshops/fungi_frenzy.png" alt="Fungi_Frenzy" />
+        <WorkshopImage src="/assets/edResources/edWorkshops/fungi_frenzy.png" alt="Fungi_Frenzy" />
       </WorkshopSection>
 
       <ContactText>{t('edWorkshops.contactText', 'Interested in either of these workshops for your community? Contact us via myconurseries[at]gmail[dot]com for more information!')}</ContactText>

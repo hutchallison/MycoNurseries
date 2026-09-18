@@ -198,9 +198,6 @@ function Header() {
               <li>
                 <DropdownItem to="/our-partners">{t('components.header.ourPartners')}</DropdownItem>
               </li>
-              <li>
-                <DropdownItem to="/edworkshops">{t('components.header.edWorkshops')}</DropdownItem>
-              </li>
             </DropdownMenu>
           </NavItem>
           <NavItem>
@@ -214,6 +211,19 @@ function Header() {
           <NavItem>
             <StyledLink to="/blog">{t('components.header.blog')}</StyledLink>
           </NavItem>
+
+          <NavItem>
+            <StyledLink to="/edResources">{t('components.header.edResources')}</StyledLink>
+            <DropdownMenu>
+              <li>
+                <DropdownItem to="/edworkshops">{t('components.header.edWorkshops')}</DropdownItem>
+              </li>
+              <li>
+                <DropdownItem to="/edresources">{t('components.header.edPdf')}</DropdownItem>
+              </li>
+            </DropdownMenu>
+          </NavItem>
+
           <NavItem>
             <StyledLink to="/shop">{t('components.header.shop')}</StyledLink>
           </NavItem>
