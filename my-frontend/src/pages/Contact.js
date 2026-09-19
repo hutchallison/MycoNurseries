@@ -131,6 +131,11 @@ function Contact() {
           <a href="https://www.linkedin.com/company/myconurseries/posts/?feedView=all" target="_blank" rel="noreferrer">
             <img src={process.env.PUBLIC_URL + "/assets/social/logo-linkedin.png"} alt="LinkedIn" />
           </a>
+          <a href="https://www.youtube.com/@MycoNurseries" target="_blank" rel="noreferrer">
+            <img src={process.env.PUBLIC_URL + "/assets/social/logo-youtube.png"} alt="Youtube" />
+          </a>
+
+
         </SocialIcons>
       </LeftPanel>
 

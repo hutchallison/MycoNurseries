@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import ResourceCard from '../components/ResourceCard';
 
 const Container = styled.section`
   padding: 1em 2em;
@@ -16,17 +16,18 @@ const PageTitle = styled.h2`
   text-align: center;
 `;
 
-const ContactText = styled.p`
-  margin-top: 2em;
-  color: #555;
-  font-weight: bold;
-  text-align: center;
-`;
 
-const StyledLink = styled(Link)`
-  color: #9fb9ee;
-  text-decoration: underline;
-`
+const resources = [   //Add resource by creating another resource item
+  {
+    title: "Vermicomposting Info-Pack",
+    description: "Our Vermicomposting Info-Pack provides all of the necessary steps to make your own vermicomposting bin! It also includes a vermicomposting quiz and glossary for classroom use. The pack can be used to suppliment our free Vermicomposting 101 Youtube tutorial.",
+    date: "September 2026",
+    preview: "Vermicomposting Info-Pack.jpeg" //Convert pdf to jpeg to get preview
+  },
+
+
+]
+
 
 function EdWorkshops() {
   const { t } = useTranslation();
@@ -36,13 +37,12 @@ function EdWorkshops() {
       <PageTitle>{t('edWorkshops.title', 'Educational Resources')}</PageTitle>
       <p>{t('edWorkshops.vermicompostText1', 'Here you can find all our educational resources!')}</p>
       
-      <StyledLink
-        to="Vermicomposting Info-Pack"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Vermicomposting Info-Pack
-      </StyledLink>
+      {resources.map((resource) => (
+        <ResourceCard
+          key={resource.title}
+          resource={resource}
+        />
+      ))}
     </Container>
   );
 }
