@@ -10,7 +10,7 @@
     },
     "footer": {
       "about": "À propos",
-      "home": "Accueil",
+      "aboutMyconurseries": "À propos de nous",
       "ourPartners": "Nos partenaires et donateurs",
       "team": "Équipe",
       "growingProcess": "Processus de croissance",
@@ -24,8 +24,9 @@
       "instagram": "Instagram",
       "facebook": "Facebook",
       "linkedin": "LinkedIn",
-      "newsletter": "Newsletter",
-      "copyright": "2025 MycoNurseries"
+      "newsletter": "Infolettre",
+      "copyright": "2025 MycoNurseries",
+      "youtube": "Youtube"
     },
     "growingProcess": {
       "title": "Notre processus de culture de champignons",
@@ -49,7 +50,9 @@
       "edWorkshops": "Nos ateliers éducatifs",
       "getInvolved": "S'impliquer",
       "shop": "Boutique",
-      "blog": "Blog"
+      "blog": "Blog",
+      "edResources": "Ressources éducatives",
+      "edPdf": "Ressources"
     },
     "team": {
       "title": "Rencontrez l'équipe",
@@ -266,6 +269,15 @@
       "fungiFrenzyText2": "Fungi Frenzy explore le lien entre les champignons, l'environnement et l'action climatique.",
       "fungiFrenzyText3": "La première édition de cet atelier a été présentée en collaboration avec les Jardins éducatifs de McGill en septembre 2025. D'autres suivront en 2026.",
       "contactText": "L'un de ces ateliers vous intéresse pour votre communauté ? Contactez-nous à myconurseries[at]gmail[dot]com pour plus d'informations !"
+    },
+    "edResources": {
+      "title": "Ressources éducatives",
+      "subtitle": "Vous trouverez ici toutes nos ressources éducatives!"
+    },
+    "edPdf": {
+      "title": "Ressources"
     }
+    
   }
+  
 }

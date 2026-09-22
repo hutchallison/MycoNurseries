@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import { useTranslation } from 'react-i18next';
 
 // Call-to-Action (Get Involved)
 const CtaWrapper = styled.div`
@@ -26,11 +27,13 @@ const CtaTitle = styled.h2`
 
 function Cta() {
   const [status] = useState('');
+  const { t } = useTranslation();
+
   return (
     <>
       <CtaWrapper>
-        <CtaTitle>Get Involved</CtaTitle>
-        <p>We’d love to hear from you. Please fill out the form below.</p>
+        <CtaTitle>{t('components.cta.getInvolved.title','Get Involved')}</CtaTitle>
+        <p>{t('components.cta.getInvolved.text1')}</p>
 
         <div style={{ marginLeft: '-40px' }}>
           <iframe 

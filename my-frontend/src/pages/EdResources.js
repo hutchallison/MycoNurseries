@@ -34,8 +34,8 @@ function EdWorkshops() {
 
   return (
     <Container>
-      <PageTitle>{t('edWorkshops.title', 'Educational Resources')}</PageTitle>
-      <p>{t('edWorkshops.vermicompostText1', 'Here you can find all our educational resources!')}</p>
+      <PageTitle>{t('components.edResources.title', 'Educational Resources')}</PageTitle>
+      <p>{t('components.edResources.subtitle', 'Here you can find all our educational resources!')}</p>
       
       {resources.map((resource) => (
         <ResourceCard

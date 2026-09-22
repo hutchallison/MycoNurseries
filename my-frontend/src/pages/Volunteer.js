@@ -72,15 +72,15 @@ function Volunteer() {
   if (!authenticated) {
     return (
       <Wrapper>
-        <Title>{t('volunteer.passwordPrompt')}</Title>
+        <Title>{t('components.volunteer.passwordPrompt')}</Title>
         <Form onSubmit={handleAuth}>
-          <Label>{t('volunteer.password')}</Label>
+          <Label>{t('components.volunteer.password')}</Label>
           <Input
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <Button type="submit">{t('volunteer.submit')}</Button>
+          <Button type="submit">{t('components.volunteer.submit')}</Button>
         </Form>
       </Wrapper>
     );
@@ -88,21 +88,21 @@ function Volunteer() {
 
   return (
     <Wrapper>
-      <Title>{t('volunteer.posting.title')}</Title>
+      <Title>{t('components.volunteer.posting.title')}</Title>
       <Form onSubmit={handleSubmit}>
-        <Label>{t('volunteer.posting.name')}</Label>
+        <Label>{t('components.volunteer.posting.name')}</Label>
         <Input name="name" value={formData.name} onChange={handleChange} />
 
-        <Label>{t('volunteer.posting.email')}</Label>
+        <Label>{t('components.volunteer.posting.email')}</Label>
         <Input name="email" value={formData.email} onChange={handleChange} />
 
-        <Label>{t('volunteer.posting.role')}</Label>
+        <Label>{t('components.volunteer.posting.role')}</Label>
         <Input name="role" value={formData.role} onChange={handleChange} />
 
-        <Label>{t('volunteer.posting.notes')}</Label>
+        <Label>{t('components.volunteer.posting.notes')}</Label>
         <TextArea name="notes" rows={4} value={formData.notes} onChange={handleChange} />
 
-        <Button type="submit">{t('volunteer.posting.post')}</Button>
+        <Button type="submit">{t('components.volunteer.posting.post')}</Button>
       </Form>
     </Wrapper>
   );

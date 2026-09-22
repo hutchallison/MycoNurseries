@@ -55,29 +55,29 @@ function EdWorkshops() {
 
   return (
     <Container>
-      <PageTitle>{t('edWorkshops.title', 'Educational Workshops')}</PageTitle>
+      <PageTitle>{t('components.edWorkshops.title', 'Educational Workshops')}</PageTitle>
       
       <WorkshopSection>
         <WorkshopImage src="/assets/edResources/edWorkshops/vermicompost.png" alt="Vermicompost" />
         <WorkshopContent>
-          <h3>{t('edWorkshops.vermicompostTitle', 'Learn to Vermicompost')}</h3>
-          <p>{t('edWorkshops.vermicompostText1', 'Curious about worms and want to get your hands dirty? Join MycoNurseries for Vermicomposting 101, with the support of the UniC Network.')}</p>
-          <p>{t('edWorkshops.vermicompostText2', 'This workshop is hosted both in person or online. In person participants will help collectively make a vermicompost bin and can walk away with their own free starter kit. For those online, a list of materials will be provided ahead of time so you can make your own compost alongside us.')}</p>
-          <p>{t('edWorkshops.vermicompostText3', 'Keep an eye out for our next workshop in early 2026!')}</p>
+          <h3>{t('components.edWorkshops.vermicompostTitle', 'Learn to Vermicompost')}</h3>
+          <p>{t('components.edWorkshops.vermicompostText1', 'Curious about worms and want to get your hands dirty? Join MycoNurseries for Vermicomposting 101, with the support of the UniC Network.')}</p>
+          <p>{t('components.edWorkshops.vermicompostText2', 'This workshop is hosted both in person or online. In person participants will help collectively make a vermicompost bin and can walk away with their own free starter kit. For those online, a list of materials will be provided ahead of time so you can make your own compost alongside us.')}</p>
+          <p>{t('components.edWorkshops.vermicompostText3', 'Keep an eye out for our next workshop in early 2026!')}</p>
         </WorkshopContent>
       </WorkshopSection>
 
       <WorkshopSection>
         <WorkshopContent>
-          <h3>{t('edWorkshops.fungiFrenzyTitle', 'Play Fungi Frenzy!')}</h3>
-          <p>{t('edWorkshops.fungiFrenzyText1', 'How well can you build a healthy fungi ecosystem? Come find out by playing our new card game, Fungi Frenzy! 🍄')}</p>
-          <p>{t('edWorkshops.fungiFrenzyText2', 'Fungi Frenzy explores the connection between fungi, the environment, and climate action.')}</p>
-          <p>{t('edWorkshops.fungiFrenzyText3', 'Our first iteration of this workshop was presented in collaboration with the McGill Education Gardens in September 2025. More to come in 2026.')}</p>
+          <h3>{t('components.edWorkshops.fungiFrenzyTitle', 'Play Fungi Frenzy!')}</h3>
+          <p>{t('components.edWorkshops.fungiFrenzyText1', 'How well can you build a healthy fungi ecosystem? Come find out by playing our new card game, Fungi Frenzy! 🍄')}</p>
+          <p>{t('components.edWorkshops.fungiFrenzyText2', 'Fungi Frenzy explores the connection between fungi, the environment, and climate action.')}</p>
+          <p>{t('components.edWorkshops.fungiFrenzyText3', 'Our first iteration of this workshop was presented in collaboration with the McGill Education Gardens in September 2025. More to come in 2026.')}</p>
         </WorkshopContent>
         <WorkshopImage src="/assets/edResources/edWorkshops/fungi_frenzy.png" alt="Fungi_Frenzy" />
       </WorkshopSection>
 
-      <ContactText>{t('edWorkshops.contactText', 'Interested in either of these workshops for your community? Contact us via myconurseries[at]gmail[dot]com for more information!')}</ContactText>
+      <ContactText>{t('components.edWorkshops.contactText', 'Interested in either of these workshops for your community? Contact us via myconurseries[at]gmail[dot]com for more information!')}</ContactText>
     </Container>
   );
 }
