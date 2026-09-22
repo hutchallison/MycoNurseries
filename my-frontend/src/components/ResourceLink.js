@@ -15,6 +15,19 @@ const StyledLink = styled(Link)`
   }
 `;
 
+const MobileLink = styled.a`
+  align-self; flex-start;
+  width: fit-content;
+
+  color: #A52A2A;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 function ResourceLink({ pdf, children }) {
   const [isMobile, setIsMobile] = useState(
     window.innerWidth <= 700
@@ -34,13 +47,13 @@ function ResourceLink({ pdf, children }) {
 
   if (isMobile) {
     return (
-      <a
+      <MobileLink
         href={`${process.env.PUBLIC_URL}/assets/edResources/${pdf}.pdf`}
         target="_blank"
         rel="noopener noreferrer"
       >
         {children}
-      </a>
+      </MobileLink>
     );
   }
 
@@ -48,6 +61,7 @@ function ResourceLink({ pdf, children }) {
     <StyledLink to={pdf}>
       {children}
     </StyledLink>
+
   );
 }
 
