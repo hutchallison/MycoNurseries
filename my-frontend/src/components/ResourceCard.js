@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import ResourceLink from './ResourceLink.js'
 
 const Card = styled.div`
   display: flex;
@@ -41,19 +42,6 @@ const Description = styled.p`
   margin-bottom: 16px;
 `;
 
-const ResourceLink = styled(Link)`
-  align-self; flex-start;
-  width: fit-content;
-
-  color: #A52A2A;
-  text-decoration: none;
-  font-weight: bold;
-
-  &:hover {
-    text-decoration: underline;
-  }
-`;
-
 function ResourceCard({ resource }) {
   return (
     <Card>
@@ -72,11 +60,9 @@ function ResourceCard({ resource }) {
         </Description>
 
         <ResourceLink
-          to={resource.title}
-          target="_blank"
-          rel="noopener noreferrer"
+            pdf={`${resource.title}`}
         >
-          View Resource
+            View PDF
         </ResourceLink>
       </Content>
     </Card>
