@@ -35,7 +35,7 @@ function ResourceLink({ pdf, children }) {
   if (isMobile) {
     return (
       <a
-        href={`/my-frontend/public/assets/edResources/${pdf}.pdf`}
+        href={`${process.env.PUBLIC_URL}/assets/edResources/${pdf}.pdf`}
         target="_blank"
         rel="noopener noreferrer"
       >
