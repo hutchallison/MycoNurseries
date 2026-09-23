@@ -193,12 +193,12 @@ function TeamPage() {
           description=""
         />
         <TeamCardComponent
-          image={process.env.PUBLIC_URL + '/assets/team-member/anonymous.jpg'}
+          image={process.env.PUBLIC_URL + '/assets/team-member/sebastian-picture.jpg'}
           alt="Sebastian Kent"
           name="Sebastian Kent"
-          pronoun=""
+          pronoun="(he/him)"
           position="Grow Session Coordinator"
-          description=""
+          description="Sebastian is a U3 student of Microbiology and Immunology at McGill University. He has cultivated mushrooms for over 8 years and loves experimenting with substrates, techniques and different cultures. Other than exploring fungi, Sebastian enjoys playing board games with friends and fermenting."
         />
       </TeamRow>
 
@@ -211,7 +211,7 @@ function TeamPage() {
           alt="Maya Farres"
           name="Maya Farres"
           pronoun="(she/her)"
-          position="Education Lead"
+          position="Director of Outreach"
           description="Maya is a bachelors student at McGill university majoring in elementary education. In her free time, she loves to write, hike, and make mug cakes!"
         />
         <TeamCardComponent
