@@ -265,7 +265,7 @@ function TeamPage() {
           image={process.env.PUBLIC_URL + '/assets/team-member/fah-picture.png'}
           alt="Fah Michaud"
           name="Fah Michaud"
-          pronoun="she/her"
+          pronoun="(she/her)"
           position="Blogwriter"
           description="Fah really loves cats. She is currently pursuing an honours degree in Earth and Planetary Sciences at McGill, and prefers to spend her time reading, writing, making art, or yearning for the great outdoors."
         />
