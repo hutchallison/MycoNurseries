@@ -5,10 +5,11 @@ import styled from 'styled-components';
 const StyledLink = styled(Link)`
   align-self; flex-start;
   width: fit-content;
-
+  display: inline;
   color: #A52A2A;
   text-decoration: none;
   font-weight: bold;
+  margin-right: 20px;
 
   &:hover {
     text-decoration: underline;
@@ -18,10 +19,12 @@ const StyledLink = styled(Link)`
 const MobileLink = styled.a`
   align-self; flex-start;
   width: fit-content;
+  display: inline;
 
   color: #A52A2A;
   text-decoration: none;
   font-weight: bold;
+  margin-right: 20px;
 
   &:hover {
     text-decoration: underline;

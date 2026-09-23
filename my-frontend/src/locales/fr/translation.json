@@ -272,7 +272,13 @@
     },
     "edResources": {
       "title": "Ressources éducatives",
-      "subtitle": "Vous trouverez ici toutes nos ressources éducatives!"
+      "subtitle": "Ici, vous pouvez trouver toutes nos ressources pédagogiques !",
+      "viewLinkEN": "Voir le PDF (EN)",
+      "viewLinkFR": "Voir le PDF (FR)",
+      "vermicompostingTitle": "Vermicompostage trousse pédagogique",
+      "vermicompostingDescr": "Notre trousse pédagogique sur le vermicompostage vous explique toutes les étapes nécessaires pour fabriquer votre propre bac de vermicompostage! Elle comprend également un quiz sur le vermicompostage et un glossaire destinés à une utilisation en classe. Cette trousse peut servir de complément à notre tutoriel gratuit « Vermicompostage 101 » sur YouTube.",
+      "vermicompostingDate": "septembre 2026"
+
     },
     "edPdf": {
       "title": "Ressources"

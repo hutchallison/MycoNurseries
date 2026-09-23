@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import ResourceLink from './ResourceLink.js'
+import { useTranslation } from 'react-i18next';
 
 const Card = styled.div`
   display: flex;
@@ -39,11 +39,18 @@ const Date = styled.p`
 `;
 
 const Description = styled.p`
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 `;
 
+const LinkContainer = styled.p`
+  margin-bottom: 0px;
+`
+
 function ResourceCard({ resource }) {
-  return (
+    const { t } = useTranslation();
+  
+  
+    return (
     <Card>
       <Preview
         src={`${process.env.PUBLIC_URL}/assets/edResources/${resource.preview}`}
@@ -58,12 +65,21 @@ function ResourceCard({ resource }) {
         <Description>
           {resource.description}
         </Description>
+        <LinkContainer>
+            <ResourceLink
+                pdf={`${resource.titleEN}`}
+            >
+                {t('components.edResources.viewLinkEN')}
+            </ResourceLink>
 
-        <ResourceLink
-            pdf={`${resource.title}`}
-        >
-            View PDF
-        </ResourceLink>
+            <ResourceLink
+               pdf={`${resource.titleFR}`}
+            >
+               {t('components.edResources.viewLinkFR')}
+            </ResourceLink>
+        </LinkContainer>
+        
+
       </Content>
     </Card>
   );

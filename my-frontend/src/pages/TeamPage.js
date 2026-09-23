@@ -185,14 +185,6 @@ function TeamPage() {
           description="Amy is currently a U3 student in Microbiology and Immunology at McGill University. She likes chilling at home with some tea and enjoys growing stuff, thus helping out with the vegetable patch in her backyard. Now she’s learning how to grow mushrooms."
         />
         <TeamCardComponent
-          image={process.env.PUBLIC_URL + '/assets/team-member/anonymous.jpg'}
-          alt="Piper Jacopille"
-          name="Piper Jacopille"
-          pronoun=""
-          position="Grow Session Coordinator"
-          description=""
-        />
-        <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/sebastian-picture.jpg'}
           alt="Sebastian Kent"
           name="Sebastian Kent"
@@ -254,36 +246,12 @@ function TeamPage() {
           description="Zengyu is currently studying computer science and physics at McGill University. Love reading, watching, discussing about scifi, enjoy to cook new dishes for challenge"
         />
         <TeamCardComponent
-          image={process.env.PUBLIC_URL + '/assets/team-member/anonymous.jpg'}
-          alt="Antoine Larocque"
-          name="Antoine Larocque"
-          pronoun=""
-          position="Graphic Designer"
-          description=""
-        />
-        <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/fah-picture.png'}
           alt="Fah Michaud"
           name="Fah Michaud"
           pronoun="(she/her)"
           position="Blogwriter"
           description="Fah really loves cats. She is currently pursuing an honours degree in Earth and Planetary Sciences at McGill, and prefers to spend her time reading, writing, making art, or yearning for the great outdoors."
-        />
-        <TeamCardComponent
-          image={process.env.PUBLIC_URL + '/assets/team-member/anonymous.jpg'}
-          alt="Liam McClennan"
-          name="Liam McClennan"
-          pronoun=""
-          position="Sales Coordinator"
-          description=""
-        />
-        <TeamCardComponent
-          image={process.env.PUBLIC_URL + '/assets/team-member/anonymous.jpg'}
-          alt="Luyao Han"
-          name="Luyao Han"
-          pronoun=""
-          position="Marketing & Sales Coordinator"
-          description=""
         />
       </TeamRow>
 

@@ -17,20 +17,22 @@ const PageTitle = styled.h2`
 `;
 
 
-const resources = [   //Add resource by creating another resource item
-  {
-    title: "Vermicomposting Info-Pack",
-    description: "Our Vermicomposting Info-Pack provides all of the necessary steps to make your own vermicomposting bin! It also includes a vermicomposting quiz and glossary for classroom use. The pack can be used to suppliment our free Vermicomposting 101 Youtube tutorial.",
-    date: "September 2026",
-    preview: "Vermicomposting Info-Pack.jpeg" //Convert pdf to jpeg to get preview
-  },
 
-
-]
 
 
 function EdWorkshops() {
   const { t } = useTranslation();
+
+  const resources = [   //Add resource by creating another resource item
+    {
+      title: t('components.edResources.vermicompostingTitle'),
+      description: t('components.edResources.vermicompostingDescr'),
+      date: t('components.edResources.vermicompostingDate'),
+      preview: "Vermicomposting Info-Pack.jpeg", //Convert pdf to jpeg to get preview
+      titleEN: "Vermicomposting Info-Pack", //Make this more elegant in the future
+      titleFR: "Vermicompostage trousse pédagogique"
+    },
+  ]
 
   return (
     <Container>

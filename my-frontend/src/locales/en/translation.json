@@ -129,8 +129,8 @@
       "coFounders": "Co-Founders",
       "juliaWright": {
         "name": "Julia Wright (they/them)",
-        "bio": "Studies chemistry and mathematics at McGill University. Enjoys promoting all forms of sustainability.",
-        "hobbies": "Hobbies include hiking, knitting, and spending time with friends and family."
+        "pronoun": "Studies chemistry and mathematics at McGill University. Enjoys promoting all forms of sustainability.",
+        "position": "Hobbies include hiking, knitting, and spending time with friends and family."
       },
       "minhLe": {
         "name": "Minh Le",
@@ -273,7 +273,12 @@
     },
     "edResources": {
       "title": "Educational Resources",
-      "subtitle": "Here you can find all our educational resources!"
+      "subtitle": "Here you can find all our educational resources!",
+      "viewLinkEN": "View PDF (EN)",
+      "viewLinkFR": "View PDF (FR)",
+      "vermicompostingTitle": "Vermicomposting Info-Pack",
+      "vermicompostingDescr": "Our Vermicomposting Info-Pack provides all of the necessary steps to make your own vermicomposting bin! It also includes a vermicomposting quiz and glossary for classroom use. The pack can be used to suppliment our free Vermicomposting 101 Youtube tutorial.",
+      "vermicompostingDate": "September 2026"
     },
     "edPdf": {
       "title": "Resources"
