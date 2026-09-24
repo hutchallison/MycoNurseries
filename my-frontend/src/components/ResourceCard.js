@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ResourceLink from './ResourceLink.js'
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 
 const Card = styled.div`
   display: flex;
@@ -46,6 +46,11 @@ const LinkContainer = styled.p`
   margin-bottom: 0px;
 `
 
+const DescriptionLink = styled.a`
+  color: #A52A2A;
+  text-decoration: underline;
+`
+
 function ResourceCard({ resource }) {
     const { t } = useTranslation();
   
@@ -63,7 +68,17 @@ function ResourceCard({ resource }) {
         <Date>{resource.date}</Date>
 
         <Description>
-          {resource.description}
+            <Trans
+                i18nKey={resource.description}
+                components={[
+                <DescriptionLink
+                    key="resource-link"
+                    href={resource.hyperlink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                />
+                ]}
+            />
         </Description>
         <LinkContainer>
             <ResourceLink

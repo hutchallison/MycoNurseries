@@ -26,11 +26,12 @@ function EdWorkshops() {
   const resources = [   //Add resource by creating another resource item
     {
       title: t('components.edResources.vermicompostingTitle'),
-      description: t('components.edResources.vermicompostingDescr'),
+      description: 'components.edResources.vermicompostingDescr',
       date: t('components.edResources.vermicompostingDate'),
       preview: "Vermicomposting Info-Pack.jpeg", //Convert pdf to jpeg to get preview
       titleEN: "Vermicomposting Info-Pack", //Make this more elegant in the future
-      titleFR: "Vermicompostage trousse pédagogique"
+      titleFR: "Vermicompostage trousse pédagogique",
+      hyperlink: "https://www.youtube.com/watch?v=2gtF9X39jZk"
     },
   ]
 
