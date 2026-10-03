@@ -128,72 +128,98 @@
       "title": "Notre Équipe",
       "coFounders": "Co-fondateurs",
       "juliaWright": {
-        "name": "Julia Wright (ils/elles)",
-        "bio": "Étudie la chimie et les mathématiques à l'Université McGill. Aime promouvoir toutes les formes de durabilité.",
-        "hobbies": "Ses hobbies incluent la randonnée, le tricot et passer du temps avec ses amis et sa famille."
+        "pronoun": "(iel)",
+        "position": "Co-Founder",
+        "description": "Julia studies chemistry and mathematics at McGill University and enjoys promoting all forms of sustainability. When they’re not growing mushrooms, you can find them hiking, knitting, and hanging out with friends and family."
       },
       "minhLe": {
-        "name": "Minh Le",
-        "bio": "Étudie la pharmacologie et mène des recherches sur la durabilité sociétale.",
-        "hobbies": "Ses hobbies incluent caresser les chats, écouter de la musique et lire."
+        "pronoun": "",
+        "position": "Co-Founder",
+        "description": "Minh studies pharmacology and leads research into societal sustainability. Outside the lab, you can find them petting their cats, bopping to their latest music craze, or reading."
       },
-      "nicoVilkoff": {
-        "name": "Nico Vilkoff (ils/elles)",
-        "bio": "Étudie les sciences cognitives et explore les solutions fongiques durables aux défis environnementaux.",
-        "hobbies": "Ses hobbies incluent le dessin, la résolution de puzzles et le visionnage de séries télévisées."
-      },
-      "research": "Recherche",
-      "deanBaghdadi": {
-        "name": "Dean Baghdadi (il/lui)",
-        "bio": "Étudiant en génie des bioressources à l'Université McGill. Espère travailler dans la conception de transports et le développement durable.",
-        "hobbies": "Ses hobbies incluent passer du temps avec son chien, lire ou faire de la pâtisserie."
-      },
+      "research": "Research",
       "siqiLiu": {
-        "name": "Siqi Liu (elle/sa)",
-        "bio": "Étudiante de première année à McGill, prévoyant de se spécialiser en immunologie et microbiologie.",
-        "hobbies": "A rejoint MycoNurseries pour voir la croissance des champignons. Ses hobbies incluent voyager et jouer au tennis."
+        "pronoun": "(she/her)",
+        "position": "Mushroom Care Coordinator",
+        "description": "Siqi is a first year student at McGill with plans to major in immunology & microbiology! She loves exploring nature by traveling around, and she is interested in the development of organisms, which is why she joined MycoNurseries (would like to see the growth of fungi!). You can find her playing tennis at McGill outdoor tennis courts during the summer🎾 :D"
       },
       "kalynaLevytsky": {
-        "name": "Kalyna Levytsky (n'importe quel pronom/tous)",
-        "bio": "Étudiant en chimie à l'Université McGill. Aime la musique et le plein air.",
-        "hobbies": "Son intérêt pour les champignons a commencé sur les sentiers."
+        "pronoun": "(any/tous)",
+        "position": "Mushroom Care Coordinator",
+        "description": "Kalyna is a student at McGill University, majoring in chemistry. They love music and the outdoors. Their free time is usually spent in rehearsal or on the trails, which is where their interest in fungi started!"
       },
-      "operations": "Opérations",
+      "kaecyElmes": {
+        "pronoun": "(she/her)",
+        "position": "Vermicomposting Coordinator",
+        "description": "Kaecy is currently a fourth year student at McGill University in the IHI program, with the intention of going to medical school afterwards. In her free time, she likes to read, bake, and spend time with friends."
+      },
+
+      "operations": "Operations",
       "mariaAreizagaGarcia": {
-        "name": "Maria E. Areizaga-García (elle/sa)",
-        "bio": "Poursuit un baccalauréat en microbiologie et immunologie à l'Université McGill, avec l'intention d'aller à l'école de pharmacie.",
-        "hobbies": "Ses hobbies incluent passer du temps avec ses amis, boire du café et explorer Montréal."
+        "pronoun": "(she/her)",
+        "position": "Grow Session Coordinator",
+        "description": ""
       },
       "margaritaGauto": {
-        "name": "Margarita Gauto (elle/sa)",
-        "bio": "Se spécialise en environnement à McGill et espère poursuivre une concentration en gestion des ressources renouvelables.",
-        "hobbies": "Son intérêt pour la nature a commencé quand elle était jeune lors de voyages en voiture dans la jungle paraguayenne. Ses hobbies incluent écouter de la musique, regarder des films et jouer au volleyball."
+        "pronoun": "(she/her)",
+        "position": "Grow Session Coordinator",
+        "description": "Margarita majors in Environment at McGill and hopes to pursue a concentration in Renewable Resource Management. Her interest in nature started since she was little, when she’d often go on road trips to the Paraguayan jungle with her family. In her free time, she loves listening to music, watching movies, and playing volleyball!"
       },
-      "education": "Éducation",
+      "amyGuan": {
+        "pronoun": "(she/her)",
+        "position": "Grow Session Coordinator",
+        "description": "Amy is currently a U3 student in Microbiology and Immunology at McGill University. She likes chilling at home with some tea and enjoys growing stuff, thus helping out with the vegetable patch in her backyard. Now she’s learning how to grow mushrooms."
+      },
+      "sebastianKent": {
+        "pronoun": "(he/him)",
+        "position": "Grow Session Coordinator",
+        "description": "Sebastian is a U3 student of Microbiology and Immunology at McGill University. He has cultivated mushrooms for over 8 years and loves experimenting with substrates, techniques and different cultures. Other than exploring fungi, Sebastian enjoys playing board games with friends and fermenting."
+      },
+
+      "outreach": "Outreach",
       "mayaFarres": {
-        "name": "Maya Farres (elle/sa)",
-        "bio": "Étudiante en baccalauréat à l'Université McGill avec des projets de spécialisation en biologie environnementale.",
-        "hobbies": "Ses hobbies incluent l'écriture, la randonnée et la préparation de gâteaux dans une tasse."
+        "pronoun": "(she/her)",
+        "position": "Director of Outreach",
+        "description": "Maya is a bachelors student at McGill university majoring in elementary education. In her free time, she loves to write, hike, and make mug cakes!"
       },
-      "biankaDusseault": {
-        "name": "Bianka Dusseault (elle/sa)",
-        "bio": "Une étudiante-athlète poursuivant un baccalauréat en sciences de l'environnement avec une spécialisation en détermination de la santé.",
-        "hobbies": "Ses hobbies incluent l'apprentissage de nouvelles compétences, la création artistique, le jeu de société et le basketball."
+      "kiranFellenz": {
+        "pronoun": "(they/them)",
+        "position": "Events Lead",
+        "description": "Kiran is a McGill student in Urban Studies and International Development. Outside of class, they can be found drawing, exploring Montreal, and reading in their favorite cafes. They're also known for their extensive collection of mushroom-themed clothing."
       },
-      "communicationsAndEvents": "Communications & Événements",
-      "shimonaSingh": {
-        "name": "Shimona Singh (elle/sa)",
-        "bio": "Étudie l'informatique à l'Université McGill.",
-        "hobbies": "Ses hobbies incluent la randonnée au Mont-Royal, les voyages ou le crochet."
-      },
+
+      "communicationsAndMarketing": "Communications & Marketing",
       "maxineBisera": {
-        "name": "Maxine Bisera",
-        "bio": "Étudiante à l'Université McGill avec des spécialisations en biologie et en études urbaines.",
-        "hobbies": "Intéressée par les effets de l'urbanisation sur les écosystèmes et les pratiques agricoles urbaines comme MycoNurseries."
+        "pronoun": "",
+        "position": "Social Media Coordinator",
+        "description": "Maxine is a student at McGill University, with majors in Biology and Urban Studies. She is interested in the effects of urbanization on longstanding ecosystems, and how we can better blend development with nature— including urban farming practices like MycoNurseries!"
       },
       "nayaTawil": {
-        "name": "Naya Tawil (elle/sa)",
-        "bio": "Aime apprendre sur les champignons et le design. Prévoit de poursuivre une maîtrise en architecture avec une spécialisation en durabilité et résilience climatique."
+        "pronoun": "(she/her)",
+        "position": "Graphic Designer",
+        "description": "Naya enjoys learning about fungi and designing. She is set to pursue a Master’s in Architecture with a specialization in sustainability and climate resilience."
+      },
+      "williamJamieson": {
+        "pronoun": "(he/him)",
+        "position": "Website Developer",
+        "description":""
+      },
+      "allisonHutchings": {
+        "pronoun": "",
+        "position": "Website Developer",
+        "description":""
+      },
+      "fahMichaud": {
+        "pronoun": "(she/her)",
+        "position": "Blogwriter",
+        "description": "Fah really loves cats. She is currently pursuing an honours degree in Earth and Planetary Sciences at McGill, and prefers to spend her time reading, writing, making art, or yearning for the great outdoors."
+      },
+
+      "pastDirectors": "Past Directors",
+      "nicoVilkoff": {
+        "pronoun": "(they/them)",
+        "position": "Co-Founder",
+        "description":"Nico studies cognitive science and explores fungal sustainable solutions to environmental challenges. When not mixing mushroom substrate, they’re drawing, solving puzzles, or geeking out over TV shows."
       }
     },
     "partners": {

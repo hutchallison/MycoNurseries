@@ -102,169 +102,177 @@ function TeamPage() {
   const { t } = useTranslation();
   return (
     <TeamContainer id="team">
-      <TeamTitle>{t('Our Team')}</TeamTitle>
+      <TeamTitle>{t('components.teamPage.title')}</TeamTitle>
 
 
       {/* Co-Founders */}
-      <TeamHeading>{t('Co-Founders')}</TeamHeading>
+      <TeamHeading>{t('components.teamPage.coFounders')}</TeamHeading>
       <TeamRow>
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/julia-picture.jpeg'}
           alt={t('Julia Wright')}
           name={t('Julia Wright')}
-          pronoun={t('(they/them)')}
-          position={t('Co-Founder')}
-          description={t('Julia studies chemistry and mathematics at McGill University and enjoys promoting all forms of sustainability. When they’re not growing mushrooms, you can find them hiking, knitting, and hanging out with friends and family.')}
+          pronoun={t('components.teamPage.juliaWright.pronoun')}
+          position={t('components.teamPage.juliaWright.position')}
+          description={t('components.teamPagejuliaWright.description')}
         />
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/minh-picture2.jpg'}
           alt={t('Minh Le')}
           name={t('Minh Le')}
-          pronoun=""
-          position={t('Co-Founder')}
-          description={t('Minh studies pharmacology and leads research into societal sustainability. Outside the lab, you can find them petting their cats, bopping to their latest music craze, or reading.')}
+          pronoun={t('components.teamPage.minhLe.pronoun')}
+          position={t('components.teamPage.minhLe.position')}
+          description={t('components.teamPage.minhLe.description')}
         />
       </TeamRow>
 
 
       {/* Research Team */}
-      <TeamHeading>{t('Research')}</TeamHeading>
+      <TeamHeading>{t('components.teamPage.research')}</TeamHeading>
       <TeamRow>
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/siqi-picture.png'}
           alt={t('Siqi Liu')}
           name={t('Siqi Liu')}
-          pronoun={t('(she/her)')}
-          position={t('Mushroom Care Coordinator')}
-          description={t('Siqi is a first year student at McGill with plans to major in immunology & microbiology! She loves exploring nature by traveling around, and she is interested in the development of organisms, which is why she joined MycoNurseries (would like to see the growth of fungi!). You can find her playing tennis at McGill outdoor tennis courts during the summer🎾 :D ')}
+          pronoun={t('components.teamPagesiqiLiu.pronoun')}
+          position={t('components.teamPage.siqiLiu.position')}
+          description={t('components.teamPage.siqiLiu.description')}
         />
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/kalyna-picture.jpeg'}
           alt={t('Kalyna Levytsky')}
           name={t('Kalyna Levytsky')}
-          pronoun={t('(any/tous)')}
-          position={t('Mushroom Care Coordinator')}
-          description={t('Kalyna is a student at McGill University, majoring in chemistry. They love music and the outdoors. Their free time is usually spent in rehearsal or on the trails, which is where their interest in fungi started!')}
+          pronoun={t('components.teamPage.kalynaLevytsky.pronoun')}
+          position={t('components.teamPage.kalynaLevytsky.position')}
+          description={t('components.teamPage.kalynaLevytsky.description')}
         />
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/kaecy-picture.png'}
           alt={t('Kaecy Elmes')}
           name={t('Kaecy Elmes')}
-          pronoun={t('(she/her)')}
-          position={t('Vermicomposting Coordinator')}
-          description={t('Kaecy is currently a fourth year student at McGill University in the IHI program, with the intention of going to medical school afterwards. In her free time, she likes to read, bake, and spend time with friends.')}
+          pronoun={t('components.teamPage.kaecyElmes.pronoun')}
+          position={t('components.teamPage.kaecyElmes.position')}
+          description={t('components.teamPage.kaecyElmes.description')}
         />
       </TeamRow>
 
 
       {/* Operations Team */}
-      <TeamHeading>{t('Operations')}</TeamHeading>
+      <TeamHeading>{t('components.teamPage.operations')}</TeamHeading>
       <TeamRow>
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/maria-picture.png'}
           alt={t('Maria E. Areizaga-García')}
           name={t('Maria E. Areizaga-García')}
-          pronoun={t('(she/her)')}
-          position={t('Grow Session Coordinator')}
-          description={t('')}
+          pronoun={t('components.teamPage.mariaAreizagaGarcia.pronoun')}
+          position={t('components.teamPage.mariaAreizagaGarcia.position')}
+          description={t('components.teamPage.mariaAreizagaGarcia.description')}
         />
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/margarita-picture.jpeg'}
           alt="Margarita Gauto"
           name="Margarita Gauto"
-          pronoun="(she/her)"
-          position="Grow Session Coordinator"
-          description="Margarita majors in Environment at McGill and hopes to pursue a concentration in Renewable Resource Management. Her interest in nature started since she was little, when she’d often go on road trips to the Paraguayan jungle with her family. In her free time, she loves listening to music, watching movies, and playing volleyball!"
+          pronoun={t('components.teamPage.margaritaGauto.pronoun')}
+          position={t('components.teamPage.margaritaGauto.position')}
+          description={t('components.teamPage.margaritaGauto.description')}
         />
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/amy-picture.png'}
           alt="Amy Guan"
           name="Amy Guan"
-          pronoun="(she/her)"
-          position="Grow Session Coordinator"
-          description="Amy is currently a U3 student in Microbiology and Immunology at McGill University. She likes chilling at home with some tea and enjoys growing stuff, thus helping out with the vegetable patch in her backyard. Now she’s learning how to grow mushrooms."
+          pronoun={t('components.teamPage.amyGuan.pronoun')}
+          position={t('components.teamPage.amyGuan.position')}
+          description={t('components.teamPage.amyGuan.description')}
         />
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/sebastian-picture.jpg'}
           alt="Sebastian Kent"
           name="Sebastian Kent"
-          pronoun="(he/him)"
-          position="Grow Session Coordinator"
-          description="Sebastian is a U3 student of Microbiology and Immunology at McGill University. He has cultivated mushrooms for over 8 years and loves experimenting with substrates, techniques and different cultures. Other than exploring fungi, Sebastian enjoys playing board games with friends and fermenting."
+          pronoun={t('components.teamPage.sebastianKent.pronoun')}
+          position={t('components.teamPage.sebastianKent.position')}
+          description={t('components.teamPage.sebastianKent.description')}
         />
       </TeamRow>
 
 
       {/* Outreach Team */}
-      <TeamHeading>Outreach</TeamHeading>
+      <TeamHeading>{t('components.teamPage.outreach')}</TeamHeading>
       <TeamRow>
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/maya-picture.jpeg'}
           alt="Maya Farres"
           name="Maya Farres"
-          pronoun="(she/her)"
-          position="Director of Outreach"
-          description="Maya is a bachelors student at McGill university majoring in elementary education. In her free time, she loves to write, hike, and make mug cakes!"
+          pronoun={t('components.teamPage.mayaFarres.pronoun')}
+          position={t('components.teamPage.mayaFarres.position')}
+          description={t('components.teamPage.mayaFarres.description')}
         />
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/kiran-picture.jpg'}
           alt="Kiran Fellenz"
           name="Kiran Fellenz"
-          pronoun="(they/them)"
-          position="Events Lead"
-          description="Kiran is a McGill student in Urban Studies and International Development. Outside of class, they can be found drawing, exploring Montreal, and reading in their favorite cafes. They're also known for their extensive collection of mushroom-themed clothing."
+          pronoun={t('components.teamPage.kiranFellenz.pronoun')}
+          position={t('components.teamPage.kiranFellenz.position')}
+          description={t('components.teamPage.kiranFellenz.description')}
         />
       </TeamRow>
 
 
       {/* Communications & Marketing Team */}
-      <TeamHeading>Communications & Marketing</TeamHeading>
+      <TeamHeading>{t('components.teamPage.communicationsAndMarketing')}</TeamHeading>
       <TeamRow>
         
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/maxine-picture.png'}
           alt="Maxine Bisera"
           name="Maxine Bisera"
-          pronoun=""
-          position="Social Media Coordinator"
-          description="Maxine is a student at McGill University, with majors in Biology and Urban Studies. She is interested in the effects of urbanization on longstanding ecosystems, and how we can better blend development with nature— including urban farming practices like MycoNurseries!"
+          pronoun={t('components.teamPage.maxineBisera.pronoun')}
+          position={t('components.teamPage.maxineBisera.position')}
+          description={t('components.teamPage.maxineBisera.description')}
         />
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/naya-picture.png'}
           alt="Naya Tawil"
           name="Naya Tawil"
-          pronoun="(she/her)"
-          position="Graphic Designer"
-          description="Naya enjoys learning about fungi and designing. She is set to pursue a Master’s in Architecture with a specialization in sustainability and climate resilience. "
+          pronoun={t('components.teamPage.nayaTawil.pronoun')}
+          position={t('components.teamPage.nayaTawil.position')}
+          description={t('components.teamPage.nayaTawil.description')}
         />
         <TeamCardComponent
-          image={process.env.PUBLIC_URL + '/assets/team-member/zengyu-picture.jpg'}
-          alt="Zengyu"
-          name="Zengyu"
-          pronoun=""
-          position="Website Developer"
-          description="Zengyu is currently studying computer science and physics at McGill University. Love reading, watching, discussing about scifi, enjoy to cook new dishes for challenge"
+          image={process.env.PUBLIC_URL + '/assets/team-member/XXXXXXX'}
+          alt="William Jamieson"
+          name="William Jamieson"
+          pronoun={t('components.teamPage.williamJamieson.pronoun')}
+          position={t('components.teamPage.williamJamieson.position')}
+          description={t('components.teamPage.williamJamieson.description')}
+        />
+        <TeamCardComponent
+          image={process.env.PUBLIC_URL + '/assets/team-member/XXXXXXX'}
+          alt="Allison Hutchings"
+          name="Allison Hutchings"
+          pronoun={t('components.teamPage.allisonHutchings.pronoun')}
+          position={t('components.teamPage.allisonHutchings.position')}
+          description={t('components.teamPage.allisonHutchings.description')}
         />
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/fah-picture.png'}
           alt="Fah Michaud"
           name="Fah Michaud"
-          pronoun="(she/her)"
-          position="Blogwriter"
-          description="Fah really loves cats. She is currently pursuing an honours degree in Earth and Planetary Sciences at McGill, and prefers to spend her time reading, writing, making art, or yearning for the great outdoors."
+          pronoun={t('components.teamPage.fahMichaud.pronoun')}
+          position={t('components.teamPage.fahMichaud.position')}
+          description={t('components.teamPage.fahMichaud.description')}
         />
       </TeamRow>
 
       {/* Past Directors */}
-      <TeamHeading>Past Directors</TeamHeading>
+      <TeamHeading>{t('components.teamPage.pastDirectors')}</TeamHeading>
       <TeamRow>
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/nico-picture.jpg'}
           alt={t('Nico Vilkoff')}
           name={t('Nico Vilkoff')}
-          pronoun={t('(they/them)')}
-          position={t('Co-Founder')}
-          description={t('Nico studies cognitive science and explores fungal sustainable solutions to environmental challenges. When not mixing mushroom substrate, they’re drawing, solving puzzles, or geeking out over TV shows.')}
+          pronoun={t('components.teamPage.nicoVilkoff.pronoun')}
+          position={t('components.teamPage.nicoVilkoff.position')}
+          description={t('components.teamPage.nicoVilkoff.description')}
         />
       </TeamRow>
     </TeamContainer>
