@@ -114,7 +114,7 @@ function TeamPage() {
           name={t('Julia Wright')}
           pronoun={t('components.teamPage.juliaWright.pronoun')}
           position={t('components.teamPage.juliaWright.position')}
-          description={t('components.teamPagejuliaWright.description')}
+          description={t('components.teamPage.juliaWright.description')}
         />
         <TeamCardComponent
           image={process.env.PUBLIC_URL + '/assets/team-member/minh-picture2.jpg'}
@@ -134,7 +134,7 @@ function TeamPage() {
           image={process.env.PUBLIC_URL + '/assets/team-member/siqi-picture.png'}
           alt={t('Siqi Liu')}
           name={t('Siqi Liu')}
-          pronoun={t('components.teamPagesiqiLiu.pronoun')}
+          pronoun={t('components.teamPage.siqiLiu.pronoun')}
           position={t('components.teamPage.siqiLiu.position')}
           description={t('components.teamPage.siqiLiu.description')}
         />
@@ -238,7 +238,7 @@ function TeamPage() {
           description={t('components.teamPage.nayaTawil.description')}
         />
         <TeamCardComponent
-          image={process.env.PUBLIC_URL + '/assets/team-member/XXXXXXX'}
+          image={process.env.PUBLIC_URL + '/assets/team-member/anonymous.jpg'}
           alt="William Jamieson"
           name="William Jamieson"
           pronoun={t('components.teamPage.williamJamieson.pronoun')}
@@ -246,7 +246,7 @@ function TeamPage() {
           description={t('components.teamPage.williamJamieson.description')}
         />
         <TeamCardComponent
-          image={process.env.PUBLIC_URL + '/assets/team-member/XXXXXXX'}
+          image={process.env.PUBLIC_URL + '/assets/team-member/anonymous.jpg'}
           alt="Allison Hutchings"
           name="Allison Hutchings"
           pronoun={t('components.teamPage.allisonHutchings.pronoun')}
